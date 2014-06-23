@@ -50,7 +50,5 @@ mkcls_SOURCES = \
 mkcls_CXXFLAGS = \
 	-DNDEBUG
 
-mkcls_CPPFLAGS = -Wno-deprecated -Wwrite-strings
-
 ## File created by the gnome-build tools
 

@@ -4,6 +4,12 @@ config.h.in~
 .deps
 mkcls
 symgiza
+d4norm
+hmmnorm
+plain2snt
+snt2cooc
+snt2plain
+symal
 
 # Compiled Object files
 *.slo

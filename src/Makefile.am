@@ -7,8 +7,8 @@ INCLUDES = \
 	-DPACKAGE_SRC_DIR=\""$(srcdir)"\" \
 	-DPACKAGE_DATA_DIR=\""$(datadir)"\" 
 
-AM_CFLAGS =\
-	 -Wno-deprecated -Wno-write-strings\
+AM_CPPFLAGS =\
+	 -Wno-deprecated -Wno-write-strings \
 	 -g
 
 bin_PROGRAMS = symgiza \
@@ -43,7 +43,7 @@ d4norm_CPPFLAGS = \
 	-DNDEBUG \
 	-DWORDINDEX_WITH_4_BYTE \
 	-DBINARY_SEARCH_FOR_TTABLE \
-	-DDEBUG
+ 	-DDEBUG -Wno-deprecated -Wno-write-strings
 
 hmmnorm_SOURCES = \
 	hmmnorm.cxx
@@ -69,7 +69,7 @@ hmmnorm_CPPFLAGS = \
 	-DNDEBUG \
 	-DWORDINDEX_WITH_4_BYTE \
 	-DBINARY_SEARCH_FOR_TTABLE \
-	-DDEBUG -Wno-deprecated
+	-DDEBUG -Wno-deprecated -Wno-write-strings
 
 symal_SOURCES = \
 	cmd.c  \
@@ -89,7 +89,7 @@ snt2cooc_CPPFLAGS = \
 	-DNDEBUG \
 	-DWORDINDEX_WITH_4_BYTE \
 	-DBINARY_SEARCH_FOR_TTABLE \
-	-DDEBUG -Wno-deprecated
+	-DDEBUG -Wno-deprecated -Wno-write-strings
 
 symgiza_SOURCES = \
 	main.cpp
@@ -108,7 +108,7 @@ symgiza_CPPFLAGS = \
 	-DNDEBUG \
 	-DWORDINDEX_WITH_4_BYTE \
 	-DBINARY_SEARCH_FOR_TTABLE \
-	-DDEBUG -Wno-deprecated -Wwrite-strings
+	-DDEBUG -Wno-deprecated -Wno-write-strings
 
 symgiza_LDFLAGS = \
 	-L.
@@ -210,7 +210,7 @@ libgiza_a_CPPFLAGS = \
 	-DNDEBUG \
 	-DWORDINDEX_WITH_4_BYTE \
 	-DBINARY_SEARCH_FOR_TTABLE \
-	-DDEBUG  -Wno-deprecated -Wwrite-strings
+	-DDEBUG  -Wno-deprecated -Wno-write-strings
 
 SUBDIRS = \
 	mkcls

@@ -358,7 +358,6 @@ mkcls_SOURCES = \
 mkcls_CXXFLAGS = \
 	-DNDEBUG
 
-mkcls_CPPFLAGS = -Wno-deprecated -Wwrite-strings
 all: all-am
 
 .SUFFIXES:
@@ -493,242 +492,242 @@ distclean-compile:
 @am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(LTCXXCOMPILE) -c -o $@ $<
 
 mkcls-GDAOptimization.o: GDAOptimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-GDAOptimization.o -MD -MP -MF $(DEPDIR)/mkcls-GDAOptimization.Tpo -c -o mkcls-GDAOptimization.o `test -f 'GDAOptimization.cpp' || echo '$(srcdir)/'`GDAOptimization.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-GDAOptimization.o -MD -MP -MF $(DEPDIR)/mkcls-GDAOptimization.Tpo -c -o mkcls-GDAOptimization.o `test -f 'GDAOptimization.cpp' || echo '$(srcdir)/'`GDAOptimization.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-GDAOptimization.Tpo $(DEPDIR)/mkcls-GDAOptimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='GDAOptimization.cpp' object='mkcls-GDAOptimization.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-GDAOptimization.o `test -f 'GDAOptimization.cpp' || echo '$(srcdir)/'`GDAOptimization.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-GDAOptimization.o `test -f 'GDAOptimization.cpp' || echo '$(srcdir)/'`GDAOptimization.cpp
 
 mkcls-GDAOptimization.obj: GDAOptimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-GDAOptimization.obj -MD -MP -MF $(DEPDIR)/mkcls-GDAOptimization.Tpo -c -o mkcls-GDAOptimization.obj `if test -f 'GDAOptimization.cpp'; then $(CYGPATH_W) 'GDAOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/GDAOptimization.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-GDAOptimization.obj -MD -MP -MF $(DEPDIR)/mkcls-GDAOptimization.Tpo -c -o mkcls-GDAOptimization.obj `if test -f 'GDAOptimization.cpp'; then $(CYGPATH_W) 'GDAOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/GDAOptimization.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-GDAOptimization.Tpo $(DEPDIR)/mkcls-GDAOptimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='GDAOptimization.cpp' object='mkcls-GDAOptimization.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-GDAOptimization.obj `if test -f 'GDAOptimization.cpp'; then $(CYGPATH_W) 'GDAOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/GDAOptimization.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-GDAOptimization.obj `if test -f 'GDAOptimization.cpp'; then $(CYGPATH_W) 'GDAOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/GDAOptimization.cpp'; fi`
 
 mkcls-general.o: general.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-general.o -MD -MP -MF $(DEPDIR)/mkcls-general.Tpo -c -o mkcls-general.o `test -f 'general.cpp' || echo '$(srcdir)/'`general.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-general.o -MD -MP -MF $(DEPDIR)/mkcls-general.Tpo -c -o mkcls-general.o `test -f 'general.cpp' || echo '$(srcdir)/'`general.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-general.Tpo $(DEPDIR)/mkcls-general.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='general.cpp' object='mkcls-general.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-general.o `test -f 'general.cpp' || echo '$(srcdir)/'`general.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-general.o `test -f 'general.cpp' || echo '$(srcdir)/'`general.cpp
 
 mkcls-general.obj: general.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-general.obj -MD -MP -MF $(DEPDIR)/mkcls-general.Tpo -c -o mkcls-general.obj `if test -f 'general.cpp'; then $(CYGPATH_W) 'general.cpp'; else $(CYGPATH_W) '$(srcdir)/general.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-general.obj -MD -MP -MF $(DEPDIR)/mkcls-general.Tpo -c -o mkcls-general.obj `if test -f 'general.cpp'; then $(CYGPATH_W) 'general.cpp'; else $(CYGPATH_W) '$(srcdir)/general.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-general.Tpo $(DEPDIR)/mkcls-general.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='general.cpp' object='mkcls-general.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-general.obj `if test -f 'general.cpp'; then $(CYGPATH_W) 'general.cpp'; else $(CYGPATH_W) '$(srcdir)/general.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-general.obj `if test -f 'general.cpp'; then $(CYGPATH_W) 'general.cpp'; else $(CYGPATH_W) '$(srcdir)/general.cpp'; fi`
 
 mkcls-HCOptimization.o: HCOptimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-HCOptimization.o -MD -MP -MF $(DEPDIR)/mkcls-HCOptimization.Tpo -c -o mkcls-HCOptimization.o `test -f 'HCOptimization.cpp' || echo '$(srcdir)/'`HCOptimization.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-HCOptimization.o -MD -MP -MF $(DEPDIR)/mkcls-HCOptimization.Tpo -c -o mkcls-HCOptimization.o `test -f 'HCOptimization.cpp' || echo '$(srcdir)/'`HCOptimization.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-HCOptimization.Tpo $(DEPDIR)/mkcls-HCOptimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='HCOptimization.cpp' object='mkcls-HCOptimization.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-HCOptimization.o `test -f 'HCOptimization.cpp' || echo '$(srcdir)/'`HCOptimization.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-HCOptimization.o `test -f 'HCOptimization.cpp' || echo '$(srcdir)/'`HCOptimization.cpp
 
 mkcls-HCOptimization.obj: HCOptimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-HCOptimization.obj -MD -MP -MF $(DEPDIR)/mkcls-HCOptimization.Tpo -c -o mkcls-HCOptimization.obj `if test -f 'HCOptimization.cpp'; then $(CYGPATH_W) 'HCOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/HCOptimization.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-HCOptimization.obj -MD -MP -MF $(DEPDIR)/mkcls-HCOptimization.Tpo -c -o mkcls-HCOptimization.obj `if test -f 'HCOptimization.cpp'; then $(CYGPATH_W) 'HCOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/HCOptimization.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-HCOptimization.Tpo $(DEPDIR)/mkcls-HCOptimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='HCOptimization.cpp' object='mkcls-HCOptimization.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-HCOptimization.obj `if test -f 'HCOptimization.cpp'; then $(CYGPATH_W) 'HCOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/HCOptimization.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-HCOptimization.obj `if test -f 'HCOptimization.cpp'; then $(CYGPATH_W) 'HCOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/HCOptimization.cpp'; fi`
 
 mkcls-IterOptimization.o: IterOptimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-IterOptimization.o -MD -MP -MF $(DEPDIR)/mkcls-IterOptimization.Tpo -c -o mkcls-IterOptimization.o `test -f 'IterOptimization.cpp' || echo '$(srcdir)/'`IterOptimization.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-IterOptimization.o -MD -MP -MF $(DEPDIR)/mkcls-IterOptimization.Tpo -c -o mkcls-IterOptimization.o `test -f 'IterOptimization.cpp' || echo '$(srcdir)/'`IterOptimization.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-IterOptimization.Tpo $(DEPDIR)/mkcls-IterOptimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='IterOptimization.cpp' object='mkcls-IterOptimization.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-IterOptimization.o `test -f 'IterOptimization.cpp' || echo '$(srcdir)/'`IterOptimization.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-IterOptimization.o `test -f 'IterOptimization.cpp' || echo '$(srcdir)/'`IterOptimization.cpp
 
 mkcls-IterOptimization.obj: IterOptimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-IterOptimization.obj -MD -MP -MF $(DEPDIR)/mkcls-IterOptimization.Tpo -c -o mkcls-IterOptimization.obj `if test -f 'IterOptimization.cpp'; then $(CYGPATH_W) 'IterOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/IterOptimization.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-IterOptimization.obj -MD -MP -MF $(DEPDIR)/mkcls-IterOptimization.Tpo -c -o mkcls-IterOptimization.obj `if test -f 'IterOptimization.cpp'; then $(CYGPATH_W) 'IterOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/IterOptimization.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-IterOptimization.Tpo $(DEPDIR)/mkcls-IterOptimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='IterOptimization.cpp' object='mkcls-IterOptimization.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-IterOptimization.obj `if test -f 'IterOptimization.cpp'; then $(CYGPATH_W) 'IterOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/IterOptimization.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-IterOptimization.obj `if test -f 'IterOptimization.cpp'; then $(CYGPATH_W) 'IterOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/IterOptimization.cpp'; fi`
 
 mkcls-KategProblem.o: KategProblem.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblem.o -MD -MP -MF $(DEPDIR)/mkcls-KategProblem.Tpo -c -o mkcls-KategProblem.o `test -f 'KategProblem.cpp' || echo '$(srcdir)/'`KategProblem.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblem.o -MD -MP -MF $(DEPDIR)/mkcls-KategProblem.Tpo -c -o mkcls-KategProblem.o `test -f 'KategProblem.cpp' || echo '$(srcdir)/'`KategProblem.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-KategProblem.Tpo $(DEPDIR)/mkcls-KategProblem.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='KategProblem.cpp' object='mkcls-KategProblem.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblem.o `test -f 'KategProblem.cpp' || echo '$(srcdir)/'`KategProblem.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblem.o `test -f 'KategProblem.cpp' || echo '$(srcdir)/'`KategProblem.cpp
 
 mkcls-KategProblem.obj: KategProblem.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblem.obj -MD -MP -MF $(DEPDIR)/mkcls-KategProblem.Tpo -c -o mkcls-KategProblem.obj `if test -f 'KategProblem.cpp'; then $(CYGPATH_W) 'KategProblem.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblem.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblem.obj -MD -MP -MF $(DEPDIR)/mkcls-KategProblem.Tpo -c -o mkcls-KategProblem.obj `if test -f 'KategProblem.cpp'; then $(CYGPATH_W) 'KategProblem.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblem.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-KategProblem.Tpo $(DEPDIR)/mkcls-KategProblem.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='KategProblem.cpp' object='mkcls-KategProblem.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblem.obj `if test -f 'KategProblem.cpp'; then $(CYGPATH_W) 'KategProblem.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblem.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblem.obj `if test -f 'KategProblem.cpp'; then $(CYGPATH_W) 'KategProblem.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblem.cpp'; fi`
 
 mkcls-KategProblemKBC.o: KategProblemKBC.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblemKBC.o -MD -MP -MF $(DEPDIR)/mkcls-KategProblemKBC.Tpo -c -o mkcls-KategProblemKBC.o `test -f 'KategProblemKBC.cpp' || echo '$(srcdir)/'`KategProblemKBC.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblemKBC.o -MD -MP -MF $(DEPDIR)/mkcls-KategProblemKBC.Tpo -c -o mkcls-KategProblemKBC.o `test -f 'KategProblemKBC.cpp' || echo '$(srcdir)/'`KategProblemKBC.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-KategProblemKBC.Tpo $(DEPDIR)/mkcls-KategProblemKBC.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='KategProblemKBC.cpp' object='mkcls-KategProblemKBC.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblemKBC.o `test -f 'KategProblemKBC.cpp' || echo '$(srcdir)/'`KategProblemKBC.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblemKBC.o `test -f 'KategProblemKBC.cpp' || echo '$(srcdir)/'`KategProblemKBC.cpp
 
 mkcls-KategProblemKBC.obj: KategProblemKBC.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblemKBC.obj -MD -MP -MF $(DEPDIR)/mkcls-KategProblemKBC.Tpo -c -o mkcls-KategProblemKBC.obj `if test -f 'KategProblemKBC.cpp'; then $(CYGPATH_W) 'KategProblemKBC.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblemKBC.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblemKBC.obj -MD -MP -MF $(DEPDIR)/mkcls-KategProblemKBC.Tpo -c -o mkcls-KategProblemKBC.obj `if test -f 'KategProblemKBC.cpp'; then $(CYGPATH_W) 'KategProblemKBC.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblemKBC.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-KategProblemKBC.Tpo $(DEPDIR)/mkcls-KategProblemKBC.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='KategProblemKBC.cpp' object='mkcls-KategProblemKBC.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblemKBC.obj `if test -f 'KategProblemKBC.cpp'; then $(CYGPATH_W) 'KategProblemKBC.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblemKBC.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblemKBC.obj `if test -f 'KategProblemKBC.cpp'; then $(CYGPATH_W) 'KategProblemKBC.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblemKBC.cpp'; fi`
 
 mkcls-KategProblemTest.o: KategProblemTest.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblemTest.o -MD -MP -MF $(DEPDIR)/mkcls-KategProblemTest.Tpo -c -o mkcls-KategProblemTest.o `test -f 'KategProblemTest.cpp' || echo '$(srcdir)/'`KategProblemTest.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblemTest.o -MD -MP -MF $(DEPDIR)/mkcls-KategProblemTest.Tpo -c -o mkcls-KategProblemTest.o `test -f 'KategProblemTest.cpp' || echo '$(srcdir)/'`KategProblemTest.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-KategProblemTest.Tpo $(DEPDIR)/mkcls-KategProblemTest.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='KategProblemTest.cpp' object='mkcls-KategProblemTest.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblemTest.o `test -f 'KategProblemTest.cpp' || echo '$(srcdir)/'`KategProblemTest.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblemTest.o `test -f 'KategProblemTest.cpp' || echo '$(srcdir)/'`KategProblemTest.cpp
 
 mkcls-KategProblemTest.obj: KategProblemTest.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblemTest.obj -MD -MP -MF $(DEPDIR)/mkcls-KategProblemTest.Tpo -c -o mkcls-KategProblemTest.obj `if test -f 'KategProblemTest.cpp'; then $(CYGPATH_W) 'KategProblemTest.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblemTest.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblemTest.obj -MD -MP -MF $(DEPDIR)/mkcls-KategProblemTest.Tpo -c -o mkcls-KategProblemTest.obj `if test -f 'KategProblemTest.cpp'; then $(CYGPATH_W) 'KategProblemTest.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblemTest.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-KategProblemTest.Tpo $(DEPDIR)/mkcls-KategProblemTest.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='KategProblemTest.cpp' object='mkcls-KategProblemTest.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblemTest.obj `if test -f 'KategProblemTest.cpp'; then $(CYGPATH_W) 'KategProblemTest.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblemTest.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblemTest.obj `if test -f 'KategProblemTest.cpp'; then $(CYGPATH_W) 'KategProblemTest.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblemTest.cpp'; fi`
 
 mkcls-KategProblemWBC.o: KategProblemWBC.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblemWBC.o -MD -MP -MF $(DEPDIR)/mkcls-KategProblemWBC.Tpo -c -o mkcls-KategProblemWBC.o `test -f 'KategProblemWBC.cpp' || echo '$(srcdir)/'`KategProblemWBC.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblemWBC.o -MD -MP -MF $(DEPDIR)/mkcls-KategProblemWBC.Tpo -c -o mkcls-KategProblemWBC.o `test -f 'KategProblemWBC.cpp' || echo '$(srcdir)/'`KategProblemWBC.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-KategProblemWBC.Tpo $(DEPDIR)/mkcls-KategProblemWBC.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='KategProblemWBC.cpp' object='mkcls-KategProblemWBC.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblemWBC.o `test -f 'KategProblemWBC.cpp' || echo '$(srcdir)/'`KategProblemWBC.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblemWBC.o `test -f 'KategProblemWBC.cpp' || echo '$(srcdir)/'`KategProblemWBC.cpp
 
 mkcls-KategProblemWBC.obj: KategProblemWBC.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblemWBC.obj -MD -MP -MF $(DEPDIR)/mkcls-KategProblemWBC.Tpo -c -o mkcls-KategProblemWBC.obj `if test -f 'KategProblemWBC.cpp'; then $(CYGPATH_W) 'KategProblemWBC.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblemWBC.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-KategProblemWBC.obj -MD -MP -MF $(DEPDIR)/mkcls-KategProblemWBC.Tpo -c -o mkcls-KategProblemWBC.obj `if test -f 'KategProblemWBC.cpp'; then $(CYGPATH_W) 'KategProblemWBC.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblemWBC.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-KategProblemWBC.Tpo $(DEPDIR)/mkcls-KategProblemWBC.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='KategProblemWBC.cpp' object='mkcls-KategProblemWBC.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblemWBC.obj `if test -f 'KategProblemWBC.cpp'; then $(CYGPATH_W) 'KategProblemWBC.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblemWBC.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-KategProblemWBC.obj `if test -f 'KategProblemWBC.cpp'; then $(CYGPATH_W) 'KategProblemWBC.cpp'; else $(CYGPATH_W) '$(srcdir)/KategProblemWBC.cpp'; fi`
 
 mkcls-mkcls.o: mkcls.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-mkcls.o -MD -MP -MF $(DEPDIR)/mkcls-mkcls.Tpo -c -o mkcls-mkcls.o `test -f 'mkcls.cpp' || echo '$(srcdir)/'`mkcls.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-mkcls.o -MD -MP -MF $(DEPDIR)/mkcls-mkcls.Tpo -c -o mkcls-mkcls.o `test -f 'mkcls.cpp' || echo '$(srcdir)/'`mkcls.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-mkcls.Tpo $(DEPDIR)/mkcls-mkcls.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='mkcls.cpp' object='mkcls-mkcls.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-mkcls.o `test -f 'mkcls.cpp' || echo '$(srcdir)/'`mkcls.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-mkcls.o `test -f 'mkcls.cpp' || echo '$(srcdir)/'`mkcls.cpp
 
 mkcls-mkcls.obj: mkcls.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-mkcls.obj -MD -MP -MF $(DEPDIR)/mkcls-mkcls.Tpo -c -o mkcls-mkcls.obj `if test -f 'mkcls.cpp'; then $(CYGPATH_W) 'mkcls.cpp'; else $(CYGPATH_W) '$(srcdir)/mkcls.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-mkcls.obj -MD -MP -MF $(DEPDIR)/mkcls-mkcls.Tpo -c -o mkcls-mkcls.obj `if test -f 'mkcls.cpp'; then $(CYGPATH_W) 'mkcls.cpp'; else $(CYGPATH_W) '$(srcdir)/mkcls.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-mkcls.Tpo $(DEPDIR)/mkcls-mkcls.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='mkcls.cpp' object='mkcls-mkcls.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-mkcls.obj `if test -f 'mkcls.cpp'; then $(CYGPATH_W) 'mkcls.cpp'; else $(CYGPATH_W) '$(srcdir)/mkcls.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-mkcls.obj `if test -f 'mkcls.cpp'; then $(CYGPATH_W) 'mkcls.cpp'; else $(CYGPATH_W) '$(srcdir)/mkcls.cpp'; fi`
 
 mkcls-MYOptimization.o: MYOptimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-MYOptimization.o -MD -MP -MF $(DEPDIR)/mkcls-MYOptimization.Tpo -c -o mkcls-MYOptimization.o `test -f 'MYOptimization.cpp' || echo '$(srcdir)/'`MYOptimization.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-MYOptimization.o -MD -MP -MF $(DEPDIR)/mkcls-MYOptimization.Tpo -c -o mkcls-MYOptimization.o `test -f 'MYOptimization.cpp' || echo '$(srcdir)/'`MYOptimization.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-MYOptimization.Tpo $(DEPDIR)/mkcls-MYOptimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='MYOptimization.cpp' object='mkcls-MYOptimization.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-MYOptimization.o `test -f 'MYOptimization.cpp' || echo '$(srcdir)/'`MYOptimization.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-MYOptimization.o `test -f 'MYOptimization.cpp' || echo '$(srcdir)/'`MYOptimization.cpp
 
 mkcls-MYOptimization.obj: MYOptimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-MYOptimization.obj -MD -MP -MF $(DEPDIR)/mkcls-MYOptimization.Tpo -c -o mkcls-MYOptimization.obj `if test -f 'MYOptimization.cpp'; then $(CYGPATH_W) 'MYOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/MYOptimization.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-MYOptimization.obj -MD -MP -MF $(DEPDIR)/mkcls-MYOptimization.Tpo -c -o mkcls-MYOptimization.obj `if test -f 'MYOptimization.cpp'; then $(CYGPATH_W) 'MYOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/MYOptimization.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-MYOptimization.Tpo $(DEPDIR)/mkcls-MYOptimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='MYOptimization.cpp' object='mkcls-MYOptimization.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-MYOptimization.obj `if test -f 'MYOptimization.cpp'; then $(CYGPATH_W) 'MYOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/MYOptimization.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-MYOptimization.obj `if test -f 'MYOptimization.cpp'; then $(CYGPATH_W) 'MYOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/MYOptimization.cpp'; fi`
 
 mkcls-Optimization.o: Optimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-Optimization.o -MD -MP -MF $(DEPDIR)/mkcls-Optimization.Tpo -c -o mkcls-Optimization.o `test -f 'Optimization.cpp' || echo '$(srcdir)/'`Optimization.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-Optimization.o -MD -MP -MF $(DEPDIR)/mkcls-Optimization.Tpo -c -o mkcls-Optimization.o `test -f 'Optimization.cpp' || echo '$(srcdir)/'`Optimization.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-Optimization.Tpo $(DEPDIR)/mkcls-Optimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='Optimization.cpp' object='mkcls-Optimization.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-Optimization.o `test -f 'Optimization.cpp' || echo '$(srcdir)/'`Optimization.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-Optimization.o `test -f 'Optimization.cpp' || echo '$(srcdir)/'`Optimization.cpp
 
 mkcls-Optimization.obj: Optimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-Optimization.obj -MD -MP -MF $(DEPDIR)/mkcls-Optimization.Tpo -c -o mkcls-Optimization.obj `if test -f 'Optimization.cpp'; then $(CYGPATH_W) 'Optimization.cpp'; else $(CYGPATH_W) '$(srcdir)/Optimization.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-Optimization.obj -MD -MP -MF $(DEPDIR)/mkcls-Optimization.Tpo -c -o mkcls-Optimization.obj `if test -f 'Optimization.cpp'; then $(CYGPATH_W) 'Optimization.cpp'; else $(CYGPATH_W) '$(srcdir)/Optimization.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-Optimization.Tpo $(DEPDIR)/mkcls-Optimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='Optimization.cpp' object='mkcls-Optimization.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-Optimization.obj `if test -f 'Optimization.cpp'; then $(CYGPATH_W) 'Optimization.cpp'; else $(CYGPATH_W) '$(srcdir)/Optimization.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-Optimization.obj `if test -f 'Optimization.cpp'; then $(CYGPATH_W) 'Optimization.cpp'; else $(CYGPATH_W) '$(srcdir)/Optimization.cpp'; fi`
 
 mkcls-Problem.o: Problem.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-Problem.o -MD -MP -MF $(DEPDIR)/mkcls-Problem.Tpo -c -o mkcls-Problem.o `test -f 'Problem.cpp' || echo '$(srcdir)/'`Problem.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-Problem.o -MD -MP -MF $(DEPDIR)/mkcls-Problem.Tpo -c -o mkcls-Problem.o `test -f 'Problem.cpp' || echo '$(srcdir)/'`Problem.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-Problem.Tpo $(DEPDIR)/mkcls-Problem.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='Problem.cpp' object='mkcls-Problem.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-Problem.o `test -f 'Problem.cpp' || echo '$(srcdir)/'`Problem.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-Problem.o `test -f 'Problem.cpp' || echo '$(srcdir)/'`Problem.cpp
 
 mkcls-Problem.obj: Problem.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-Problem.obj -MD -MP -MF $(DEPDIR)/mkcls-Problem.Tpo -c -o mkcls-Problem.obj `if test -f 'Problem.cpp'; then $(CYGPATH_W) 'Problem.cpp'; else $(CYGPATH_W) '$(srcdir)/Problem.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-Problem.obj -MD -MP -MF $(DEPDIR)/mkcls-Problem.Tpo -c -o mkcls-Problem.obj `if test -f 'Problem.cpp'; then $(CYGPATH_W) 'Problem.cpp'; else $(CYGPATH_W) '$(srcdir)/Problem.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-Problem.Tpo $(DEPDIR)/mkcls-Problem.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='Problem.cpp' object='mkcls-Problem.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-Problem.obj `if test -f 'Problem.cpp'; then $(CYGPATH_W) 'Problem.cpp'; else $(CYGPATH_W) '$(srcdir)/Problem.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-Problem.obj `if test -f 'Problem.cpp'; then $(CYGPATH_W) 'Problem.cpp'; else $(CYGPATH_W) '$(srcdir)/Problem.cpp'; fi`
 
 mkcls-ProblemTest.o: ProblemTest.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-ProblemTest.o -MD -MP -MF $(DEPDIR)/mkcls-ProblemTest.Tpo -c -o mkcls-ProblemTest.o `test -f 'ProblemTest.cpp' || echo '$(srcdir)/'`ProblemTest.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-ProblemTest.o -MD -MP -MF $(DEPDIR)/mkcls-ProblemTest.Tpo -c -o mkcls-ProblemTest.o `test -f 'ProblemTest.cpp' || echo '$(srcdir)/'`ProblemTest.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-ProblemTest.Tpo $(DEPDIR)/mkcls-ProblemTest.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='ProblemTest.cpp' object='mkcls-ProblemTest.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-ProblemTest.o `test -f 'ProblemTest.cpp' || echo '$(srcdir)/'`ProblemTest.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-ProblemTest.o `test -f 'ProblemTest.cpp' || echo '$(srcdir)/'`ProblemTest.cpp
 
 mkcls-ProblemTest.obj: ProblemTest.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-ProblemTest.obj -MD -MP -MF $(DEPDIR)/mkcls-ProblemTest.Tpo -c -o mkcls-ProblemTest.obj `if test -f 'ProblemTest.cpp'; then $(CYGPATH_W) 'ProblemTest.cpp'; else $(CYGPATH_W) '$(srcdir)/ProblemTest.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-ProblemTest.obj -MD -MP -MF $(DEPDIR)/mkcls-ProblemTest.Tpo -c -o mkcls-ProblemTest.obj `if test -f 'ProblemTest.cpp'; then $(CYGPATH_W) 'ProblemTest.cpp'; else $(CYGPATH_W) '$(srcdir)/ProblemTest.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-ProblemTest.Tpo $(DEPDIR)/mkcls-ProblemTest.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='ProblemTest.cpp' object='mkcls-ProblemTest.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-ProblemTest.obj `if test -f 'ProblemTest.cpp'; then $(CYGPATH_W) 'ProblemTest.cpp'; else $(CYGPATH_W) '$(srcdir)/ProblemTest.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-ProblemTest.obj `if test -f 'ProblemTest.cpp'; then $(CYGPATH_W) 'ProblemTest.cpp'; else $(CYGPATH_W) '$(srcdir)/ProblemTest.cpp'; fi`
 
 mkcls-RRTOptimization.o: RRTOptimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-RRTOptimization.o -MD -MP -MF $(DEPDIR)/mkcls-RRTOptimization.Tpo -c -o mkcls-RRTOptimization.o `test -f 'RRTOptimization.cpp' || echo '$(srcdir)/'`RRTOptimization.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-RRTOptimization.o -MD -MP -MF $(DEPDIR)/mkcls-RRTOptimization.Tpo -c -o mkcls-RRTOptimization.o `test -f 'RRTOptimization.cpp' || echo '$(srcdir)/'`RRTOptimization.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-RRTOptimization.Tpo $(DEPDIR)/mkcls-RRTOptimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='RRTOptimization.cpp' object='mkcls-RRTOptimization.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-RRTOptimization.o `test -f 'RRTOptimization.cpp' || echo '$(srcdir)/'`RRTOptimization.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-RRTOptimization.o `test -f 'RRTOptimization.cpp' || echo '$(srcdir)/'`RRTOptimization.cpp
 
 mkcls-RRTOptimization.obj: RRTOptimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-RRTOptimization.obj -MD -MP -MF $(DEPDIR)/mkcls-RRTOptimization.Tpo -c -o mkcls-RRTOptimization.obj `if test -f 'RRTOptimization.cpp'; then $(CYGPATH_W) 'RRTOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/RRTOptimization.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-RRTOptimization.obj -MD -MP -MF $(DEPDIR)/mkcls-RRTOptimization.Tpo -c -o mkcls-RRTOptimization.obj `if test -f 'RRTOptimization.cpp'; then $(CYGPATH_W) 'RRTOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/RRTOptimization.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-RRTOptimization.Tpo $(DEPDIR)/mkcls-RRTOptimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='RRTOptimization.cpp' object='mkcls-RRTOptimization.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-RRTOptimization.obj `if test -f 'RRTOptimization.cpp'; then $(CYGPATH_W) 'RRTOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/RRTOptimization.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-RRTOptimization.obj `if test -f 'RRTOptimization.cpp'; then $(CYGPATH_W) 'RRTOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/RRTOptimization.cpp'; fi`
 
 mkcls-SAOptimization.o: SAOptimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-SAOptimization.o -MD -MP -MF $(DEPDIR)/mkcls-SAOptimization.Tpo -c -o mkcls-SAOptimization.o `test -f 'SAOptimization.cpp' || echo '$(srcdir)/'`SAOptimization.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-SAOptimization.o -MD -MP -MF $(DEPDIR)/mkcls-SAOptimization.Tpo -c -o mkcls-SAOptimization.o `test -f 'SAOptimization.cpp' || echo '$(srcdir)/'`SAOptimization.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-SAOptimization.Tpo $(DEPDIR)/mkcls-SAOptimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='SAOptimization.cpp' object='mkcls-SAOptimization.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-SAOptimization.o `test -f 'SAOptimization.cpp' || echo '$(srcdir)/'`SAOptimization.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-SAOptimization.o `test -f 'SAOptimization.cpp' || echo '$(srcdir)/'`SAOptimization.cpp
 
 mkcls-SAOptimization.obj: SAOptimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-SAOptimization.obj -MD -MP -MF $(DEPDIR)/mkcls-SAOptimization.Tpo -c -o mkcls-SAOptimization.obj `if test -f 'SAOptimization.cpp'; then $(CYGPATH_W) 'SAOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/SAOptimization.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-SAOptimization.obj -MD -MP -MF $(DEPDIR)/mkcls-SAOptimization.Tpo -c -o mkcls-SAOptimization.obj `if test -f 'SAOptimization.cpp'; then $(CYGPATH_W) 'SAOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/SAOptimization.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-SAOptimization.Tpo $(DEPDIR)/mkcls-SAOptimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='SAOptimization.cpp' object='mkcls-SAOptimization.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-SAOptimization.obj `if test -f 'SAOptimization.cpp'; then $(CYGPATH_W) 'SAOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/SAOptimization.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-SAOptimization.obj `if test -f 'SAOptimization.cpp'; then $(CYGPATH_W) 'SAOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/SAOptimization.cpp'; fi`
 
 mkcls-StatVar.o: StatVar.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-StatVar.o -MD -MP -MF $(DEPDIR)/mkcls-StatVar.Tpo -c -o mkcls-StatVar.o `test -f 'StatVar.cpp' || echo '$(srcdir)/'`StatVar.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-StatVar.o -MD -MP -MF $(DEPDIR)/mkcls-StatVar.Tpo -c -o mkcls-StatVar.o `test -f 'StatVar.cpp' || echo '$(srcdir)/'`StatVar.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-StatVar.Tpo $(DEPDIR)/mkcls-StatVar.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='StatVar.cpp' object='mkcls-StatVar.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-StatVar.o `test -f 'StatVar.cpp' || echo '$(srcdir)/'`StatVar.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-StatVar.o `test -f 'StatVar.cpp' || echo '$(srcdir)/'`StatVar.cpp
 
 mkcls-StatVar.obj: StatVar.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-StatVar.obj -MD -MP -MF $(DEPDIR)/mkcls-StatVar.Tpo -c -o mkcls-StatVar.obj `if test -f 'StatVar.cpp'; then $(CYGPATH_W) 'StatVar.cpp'; else $(CYGPATH_W) '$(srcdir)/StatVar.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-StatVar.obj -MD -MP -MF $(DEPDIR)/mkcls-StatVar.Tpo -c -o mkcls-StatVar.obj `if test -f 'StatVar.cpp'; then $(CYGPATH_W) 'StatVar.cpp'; else $(CYGPATH_W) '$(srcdir)/StatVar.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-StatVar.Tpo $(DEPDIR)/mkcls-StatVar.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='StatVar.cpp' object='mkcls-StatVar.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-StatVar.obj `if test -f 'StatVar.cpp'; then $(CYGPATH_W) 'StatVar.cpp'; else $(CYGPATH_W) '$(srcdir)/StatVar.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-StatVar.obj `if test -f 'StatVar.cpp'; then $(CYGPATH_W) 'StatVar.cpp'; else $(CYGPATH_W) '$(srcdir)/StatVar.cpp'; fi`
 
 mkcls-TAOptimization.o: TAOptimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-TAOptimization.o -MD -MP -MF $(DEPDIR)/mkcls-TAOptimization.Tpo -c -o mkcls-TAOptimization.o `test -f 'TAOptimization.cpp' || echo '$(srcdir)/'`TAOptimization.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-TAOptimization.o -MD -MP -MF $(DEPDIR)/mkcls-TAOptimization.Tpo -c -o mkcls-TAOptimization.o `test -f 'TAOptimization.cpp' || echo '$(srcdir)/'`TAOptimization.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-TAOptimization.Tpo $(DEPDIR)/mkcls-TAOptimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='TAOptimization.cpp' object='mkcls-TAOptimization.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-TAOptimization.o `test -f 'TAOptimization.cpp' || echo '$(srcdir)/'`TAOptimization.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-TAOptimization.o `test -f 'TAOptimization.cpp' || echo '$(srcdir)/'`TAOptimization.cpp
 
 mkcls-TAOptimization.obj: TAOptimization.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-TAOptimization.obj -MD -MP -MF $(DEPDIR)/mkcls-TAOptimization.Tpo -c -o mkcls-TAOptimization.obj `if test -f 'TAOptimization.cpp'; then $(CYGPATH_W) 'TAOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/TAOptimization.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -MT mkcls-TAOptimization.obj -MD -MP -MF $(DEPDIR)/mkcls-TAOptimization.Tpo -c -o mkcls-TAOptimization.obj `if test -f 'TAOptimization.cpp'; then $(CYGPATH_W) 'TAOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/TAOptimization.cpp'; fi`
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/mkcls-TAOptimization.Tpo $(DEPDIR)/mkcls-TAOptimization.Po
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='TAOptimization.cpp' object='mkcls-TAOptimization.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(mkcls_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-TAOptimization.obj `if test -f 'TAOptimization.cpp'; then $(CYGPATH_W) 'TAOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/TAOptimization.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(mkcls_CXXFLAGS) $(CXXFLAGS) -c -o mkcls-TAOptimization.obj `if test -f 'TAOptimization.cpp'; then $(CYGPATH_W) 'TAOptimization.cpp'; else $(CYGPATH_W) '$(srcdir)/TAOptimization.cpp'; fi`
 
 mostlyclean-libtool:
 	-rm -f *.lo

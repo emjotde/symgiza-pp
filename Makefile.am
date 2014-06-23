@@ -1,6 +1,8 @@
 ## Process this file with automake to produce Makefile.in
 ## Created by Anjuta
 
+AM_CPPFLAGS = -Wno-deprecated -Wno-write-strings
+
 SUBDIRS = src 
 
 symgizadocdir = ${prefix}/doc/symgiza
