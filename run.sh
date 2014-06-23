@@ -14,7 +14,7 @@ SYMGIZA_ROOT=.
 mkcls=$SYMGIZA_ROOT/src/mkcls/mkcls
 plain2snt=$SYMGIZA_ROOT/src/plain2snt
 snt2cooc=$SYMGIZA_ROOT/src/snt2cooc
-mgiza=$SYMGIZA_ROOT/src/mgiza
+symgiza=$SYMGIZA_ROOT/src/symgiza
 
 #program parameters
 src_file=english
@@ -73,7 +73,7 @@ START=$(date +%s)
 #________________
 
 #---------------
-$mgiza -ncpus $threads_number -s $input_files_path/$src_file.vcb -t $input_files_path/$trg_file.vcb -cef  $input_files_path/$src_file"_"$trg_file.snt -cfe $input_files_path/$trg_file"_"$src_file.snt -oef $output_files_path/$output_ef_alias -ofe $output_files_path/$output_fe_alias -o $output_files_path/$output_alias -CoocurrenceFileEF $input_files_path/c1-c2.cooc -CoocurrenceFileFE $input_files_path/c2-c1.cooc -m1 $m1 -m2 $m2 -m3 $m3 -m4 $m4 -m5 $m5 -mh $mh -m1symfrequency $m1SymFreq -m2symfrequency $m2SymFreq -mhsymfrequency $mhSymFreq -m345symfrequency $m345SymFreq -tm $tm -es $es -alig $alig -diagonal $diag -final $final -both $both
+$symgiza -ncpus $threads_number -s $input_files_path/$src_file.vcb -t $input_files_path/$trg_file.vcb -cef  $input_files_path/$src_file"_"$trg_file.snt -cfe $input_files_path/$trg_file"_"$src_file.snt -oef $output_files_path/$output_ef_alias -ofe $output_files_path/$output_fe_alias -o $output_files_path/$output_alias -CoocurrenceFileEF $input_files_path/c1-c2.cooc -CoocurrenceFileFE $input_files_path/c2-c1.cooc -m1 $m1 -m2 $m2 -m3 $m3 -m4 $m4 -m5 $m5 -mh $mh -m1symfrequency $m1SymFreq -m2symfrequency $m2SymFreq -mhsymfrequency $mhSymFreq -m345symfrequency $m345SymFreq -tm $tm -es $es -alig $alig -diagonal $diag -final $final -both $both
 
 
 

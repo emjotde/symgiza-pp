@@ -10,6 +10,9 @@ plain2snt
 snt2cooc
 snt2plain
 symal
+config.log
+config.status
+libtool
 
 # Compiled Object files
 *.slo
