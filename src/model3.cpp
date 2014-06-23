@@ -19,6 +19,8 @@
  USA.
 
  */
+
+#include <unistd.h>
 #include "model3.h"
 #include "collCounts.h"
 #include "Globals.h"

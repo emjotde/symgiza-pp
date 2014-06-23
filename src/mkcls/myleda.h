@@ -108,7 +108,7 @@ public:
       typename map<A,B>::iterator pos=find(a);
       if( pos==this->end() )
 	{
-	  insert(map<A,B>::value_type(a,init));
+	  this->insert(map<A,B>::value_type(a,init));
 	  pos=find(a);
 	  iassert(pos!=this->end());
 	}
