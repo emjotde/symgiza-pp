@@ -6,7 +6,7 @@ Symmetrized word alignment models, based on mgizapp and GIZA++.
 
 If you use this, please cite:
 
-SyMGiza++: Symmetrized Word Alignment Models for Machine Translation. Marcin Junczys-Dowmunt and Arkadiusz Szał. In Pascal Bouvry, Mieczyslaw A. Klopotek, Franck Leprévost, Malgorzata Marciniak, Agnieszka Mykowiecka, and Henryk Rybinski, editors, Security and Intelligent Information Systems (SIIS), volume 7053 of Lecture Notes in Computer Science, pages 379-390, Warsaw, Poland, 2011. Springer. http://emjotde.github.io/publications/pdf/mjd2011siis.pdf
+__SyMGiza++: Symmetrized Word Alignment Models for Machine Translation.__ Marcin Junczys-Dowmunt and Arkadiusz Szał. In Pascal Bouvry, Mieczyslaw A. Klopotek, Franck Leprévost, Malgorzata Marciniak, Agnieszka Mykowiecka, and Henryk Rybinski, editors, Security and Intelligent Information Systems (SIIS), volume 7053 of Lecture Notes in Computer Science, pages 379-390, Warsaw, Poland, 2011. Springer. http://emjotde.github.io/publications/pdf/mjd2011siis.pdf
 
     @inproceedings{junczys_siis_2011,
       author = {Marcin Junczys-Dowmunt and Arkadiusz Szał},
