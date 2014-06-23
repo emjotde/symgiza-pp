@@ -1,3 +1,4 @@
+AM_CPPFLAGS = -Wno-deprecated -Wno-write-strings
 
 bin_PROGRAMS = \
 	mkcls
@@ -49,7 +50,7 @@ mkcls_SOURCES = \
 mkcls_CXXFLAGS = \
 	-DNDEBUG
 
-mkcls_CPPFLAFS = -Wno-deprecated -Wwrite-strings
+mkcls_CPPFLAGS = -Wno-deprecated -Wwrite-strings
 
 ## File created by the gnome-build tools
 

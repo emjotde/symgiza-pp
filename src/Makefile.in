@@ -434,7 +434,7 @@ INCLUDES = \
 	-DPACKAGE_DATA_DIR=\""$(datadir)"\" 
 
 AM_CFLAGS = \
-	 -Wno-deprecated -Wwrite-strings\
+	 -Wno-deprecated -Wno-write-strings\
 	 -g
 
 d4norm_SOURCES = \
