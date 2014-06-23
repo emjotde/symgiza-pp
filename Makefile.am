@@ -1,10 +1,12 @@
 ## Process this file with automake to produce Makefile.in
 ## Created by Anjuta
 
+AM_CPPFLAGS = -Wno-deprecated -Wno-string
+
 SUBDIRS = src 
 
-mgizadocdir = ${prefix}/doc/mgiza
-mgizadoc_DATA = \
+symgizadocdir = ${prefix}/doc/symgiza
+symgizadoc_DATA = \
 	README\
 	COPYING\
 	AUTHORS\
@@ -12,13 +14,13 @@ mgizadoc_DATA = \
 	INSTALL\
 	NEWS
 
-mgizascriptsdir = ${prefix}/scripts/
+symgizascriptsdir = ${prefix}/scripts/
 
-mgizascripts_SCRIPTS = \
+symgizascripts_SCRIPTS = \
 				   scripts/*
 
-EXTRA_DIST = $(mgizadoc_DATA) \
-	         ${mgizascripts_SCRIPTS}
+EXTRA_DIST = $(symgizadoc_DATA) \
+	         ${symgizascripts_SCRIPTS}
 # Copy all the spec files. Of cource, only one is actually used.
 dist-hook:
 	for specfile in *.spec; do \
