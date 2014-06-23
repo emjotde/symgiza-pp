@@ -1,13 +1,11 @@
 ## Process this file with automake to produce Makefile.in
 ## Created by Anjuta
 
-AM_CPPFLAGS = -Wno-deprecated -Wno-string
-
 SUBDIRS = src 
 
 symgizadocdir = ${prefix}/doc/symgiza
 symgizadoc_DATA = \
-	README\
+	README.md\
 	COPYING\
 	AUTHORS\
 	ChangeLog\

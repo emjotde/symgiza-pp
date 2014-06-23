@@ -91,29 +91,29 @@ snt2cooc_CPPFLAGS = \
 	-DBINARY_SEARCH_FOR_TTABLE \
 	-DDEBUG
 
-mgiza_SOURCES = \
+symgiza_SOURCES = \
 	main.cpp
 
-mgiza_DEPENDENCIES = \
+symgiza_DEPENDENCIES = \
 	libgiza.a
 
-mgiza_CXXFLAGS = \
+symgiza_CXXFLAGS = \
 	-MT \
 	-MD \
 	-MP \
 	-MF \
 	-O6
 
-mgiza_CPPFLAGS = \
+symgiza_CPPFLAGS = \
 	-DNDEBUG \
 	-DWORDINDEX_WITH_4_BYTE \
 	-DBINARY_SEARCH_FOR_TTABLE \
-	-DDEBUG
+	-DDEBUG -Wno-deprecated -Wwrite-strings
 
-mgiza_LDFLAGS = \
+symgiza_LDFLAGS = \
 	-L.
 
-mgiza_LDADD = \
+symgiza_LDADD = \
 	-lgiza \
 	-lpthread
 
@@ -210,7 +210,7 @@ libgiza_a_CPPFLAGS = \
 	-DNDEBUG \
 	-DWORDINDEX_WITH_4_BYTE \
 	-DBINARY_SEARCH_FOR_TTABLE \
-	-DDEBUG
+	-DDEBUG  -Wno-deprecated -Wwrite-strings
 
 SUBDIRS = \
 	mkcls

@@ -1,3 +1,10 @@
+Makefile
+autom4te.cache
+config.h.in~
+.deps
+mkcls
+symgiza
+
 # Compiled Object files
 *.slo
 *.lo
