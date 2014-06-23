@@ -8,7 +8,7 @@ INCLUDES = \
 	-DPACKAGE_DATA_DIR=\""$(datadir)"\" 
 
 AM_CFLAGS =\
-	 -Wall -Wno-deprecated -Wwrite-strings\
+	 -Wno-deprecated -Wwrite-strings\
 	 -g
 
 bin_PROGRAMS = symgiza \
