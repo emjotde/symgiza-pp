@@ -545,6 +545,7 @@ config.status:1148: creating Makefile
 config.status:1148: creating src/Makefile
 config.status:1148: creating src/mkcls/Makefile
 config.status:1148: creating config.h
+config.status:1329: config.h is unchanged
 config.status:1377: executing depfiles commands
 config.status:1377: executing libtool commands
 

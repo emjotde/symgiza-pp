@@ -8,7 +8,7 @@ INCLUDES = \
 	-DPACKAGE_DATA_DIR=\""$(datadir)"\" 
 
 AM_CFLAGS =\
-	 -Wall\
+	 -Wall -Wno-deprecated -Wwrite-strings\
 	 -g
 
 bin_PROGRAMS = symgiza \
@@ -69,7 +69,7 @@ hmmnorm_CPPFLAGS = \
 	-DNDEBUG \
 	-DWORDINDEX_WITH_4_BYTE \
 	-DBINARY_SEARCH_FOR_TTABLE \
-	-DDEBUG
+	-DDEBUG -Wno-deprecated
 
 symal_SOURCES = \
 	cmd.c  \
@@ -89,7 +89,7 @@ snt2cooc_CPPFLAGS = \
 	-DNDEBUG \
 	-DWORDINDEX_WITH_4_BYTE \
 	-DBINARY_SEARCH_FOR_TTABLE \
-	-DDEBUG
+	-DDEBUG -Wno-deprecated
 
 symgiza_SOURCES = \
 	main.cpp
@@ -102,7 +102,7 @@ symgiza_CXXFLAGS = \
 	-MD \
 	-MP \
 	-MF \
-	-O6
+	-O6 
 
 symgiza_CPPFLAGS = \
 	-DNDEBUG \
