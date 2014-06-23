@@ -357,6 +357,7 @@ mkcls_SOURCES = \
 mkcls_CXXFLAGS = \
 	-DNDEBUG
 
+mkcls_CPPFLAFS = -Wno-deprecated -Wwrite-strings
 all: all-am
 
 .SUFFIXES:
