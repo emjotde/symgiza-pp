@@ -137,7 +137,7 @@ Run snt2cooc executable to generate a co-occurrence file:
 
 After preparing this file You can run the main process of computation – SyMGIZA++:
  
-    installation_folder /src/mgiza -ncpus 2 -s Corpus1.vcb -t Corpus2.vcb -cef Corpus1_Corpus2.snt
+    installation_folder /src/symgiza -ncpus 2 -s Corpus1.vcb -t Corpus2.vcb -cef Corpus1_Corpus2.snt
      -cfe Corpus2_Corpus1.snt -oef c1 -ofe c2 -o all -CoocurrenceFileEF c1-c2.cooc -CoocurrenceFileFE c2-c1.cooc
      -m1 5 -m2 5 -m3 5 -m4 5 -mh 5 -t1 5 -t2 5 -th 5 -t345 5 -m1symfrequency 5 -m2symfrequency 5
      -mhsymfrequency 5 -m345symfrequency 5 -tm 2 -es 1 -alig intersect -diagonal yes -final yes -both yes
@@ -180,6 +180,6 @@ Final results:
     c2.A3.final - final alignment for computation from target to source without final symmetrization,
     all.A3.final_symal - - final alignment with final symmetrization.
 
-We have included a bash script that runs GIZA++ with the default parameters:
+We have included a bash script that runs SymGIZA++ with the default parameters:
     
     ./run.sh source_file_name target_file_name input_files_path
