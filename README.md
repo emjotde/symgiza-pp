@@ -30,7 +30,7 @@ __SyMGiza++: Symmetrized Word Alignment Models for Machine Translation.__ Marcin
 Installation
 ------------
 
-The requirements for the compilation of SyMGIZA++ are the same as for MGIZA++: the boost libraries. These can be downloaded from [http://www.boost.org boost.org]. After unpacking, proceed with the following commands:
+The requirements for the compilation of SyMGIZA++ are the same as for MGIZA++: the boost libraries. These can be downloaded from http://www.boost.org. After unpacking, proceed with the following commands:
     
     ./configure --prefix=installation_folder
     make
