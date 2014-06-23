@@ -11,7 +11,7 @@ AM_CFLAGS =\
 	 -Wall\
 	 -g
 
-bin_PROGRAMS = mgiza \
+bin_PROGRAMS = symgiza \
 	snt2cooc\
 	snt2plain\
 	plain2snt \
