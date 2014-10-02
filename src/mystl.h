@@ -5,6 +5,7 @@
 #ifndef MY_STL_H_DEFINED
 #define MY_STL_H_DEFINED
 
+#include <vector>
 #include <string>
 using namespace std;
 #ifdef USE_STLPORT
@@ -296,13 +297,13 @@ void smooth_standard(T*a,T*b,double p)
 }
 
 template<class T>
-const T *conv(typename vector<T>::const_iterator i)
+const T *conv(typename std::vector<T>::const_iterator i)
 {
   return &(*i);
 }
 #if __GNUC__>2
 template<class T>
-T *conv(typename vector<T>::iterator i)
+T *conv(typename std::vector<T>::iterator i)
 {
   return &(*i);
 }
